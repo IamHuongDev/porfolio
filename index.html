@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>porfolio - NguyenVanHuong</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/x-icon" href="./assets/img/brand/anh.jpg">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600&family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/utils.css">
+  <link rel="stylesheet" href="./assets/css/resume.css">
+  <link rel="stylesheet" href="./assets/css/reponsive.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="scrollbar">
+  <div class="container">
+    <div class="page">
+      <section class="card sidebar">
+        <img src="./assets/img/brand/anh.jpg" alt="Girl with DSLR" class="sidebar__avatar">
+
+        <div class="sidebar__user">
+          <p class="sidebar__user__name">Nguyễn Văn Hướng</p>
+
+          <p class="sidebar__user__position">Full-stack Developer</p>
+          <!-- <p class="sidebar__user__position">Front-end Developer</p> -->
+
+          <div class="sidebar__user__icons">
+            <a class="social__icon" href="https://www.facebook.com/huongthanh110202" target="_blank">
+              <img src="./assets/icons/facebook.svg" alt="facebook social icon">
+            </a>
+
+            <a class="social__icon" disabled href="#">
+              <img src="./assets/icons/twitter.svg" alt="twitter social icon">
+            </a>
+
+            <a class="social__icon" disabled href="#">
+              <img src="./assets/icons/instagram.svg" alt="instagram social icon">
+            </a>
+
+            <a class="social__icon" disabled href="#">
+              <img src="./assets/icons/linkedin.svg" alt="linkedin social icon">
+            </a>
+          </div>
+
+          <div class="sidebar__user__info">
+            <div class="info-group">
+              <img src="./assets/icons/phone.svg" alt="phone" class="info-group__icon">
+              <div class="info-group__content">
+                <p class="info-group__content__title">Phone</p>
+                <p class="info-group__content__description" title="0827780002">0827780002</p>
+              </div>
+            </div>
+
+            <div class="info-group">
+              <img src="./assets/icons/email.svg" alt="phone" class="info-group__icon">
+              <div class="info-group__content">
+                <p class="info-group__content__title">Email</p>
+                <p class="info-group__content__description" title="huongnguyen11022002@gmail.com">
+                  huongnguyen11022002@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="info-group">
+              <img src="./assets/icons/location.svg" alt="phone" class="info-group__icon">
+              <div class="info-group__content">
+                <p class="info-group__content__title">Location</p>
+                <p class="info-group__content__description" title="Phường Trần Phú, Tỉnh Hà Tĩnh">P.Trần Phú, Tỉnh Hà Tĩnh</p>
+              </div>
+            </div>
+
+            <div class="info-group">
+              <img src="./assets/icons/calendar.svg" alt="phone" class="info-group__icon">
+              <div class="info-group__content">
+                <p class="info-group__content__title">Birthday</p>
+                <p class="info-group__content__description" title="11/02/2002">11/02/2002</p>
+              </div>
+            </div>
+          </div>
+
+          <a class="sidebar__btn"
+            href="https://drive.google.com/file/d/1onYnl2KdNsdkTlQ0CrUSw8LkvLzsKkmn/view?usp=sharing" download
+            target="_blank">
+            <!-- <i class="fa fa-eye sidebar__btn__icon" aria-hidden="true"></i> -->
+            <img src="./assets/icons/eye.svg" alt="download" class="sidebar__btn__icon">
+            <p class="sidebar__btn__title">Download Resume</p>
+          </a>
+
+        </div>
+      </section>
+
+      <section class="card navbar">
+        <a class="navbar__item" href="#description">
+          <img src="./assets/icons/contact.svg" alt="User icon" class="navbar__item__icon">
+
+          <p class="navbar__item__title">About</p>
+        </a>
+
+        <a class="navbar__item /*active*/" href="#education">
+          <img src="./assets/icons/education.svg" alt="main icon" class="navbar__item__icon">
+
+          <p class="navbar__item__title">Education</p>
+        </a>
+
+        <a class="navbar__item" href="#experience">
+          <img src="./assets/icons/experience-gray.svg" alt="Works icon" class="navbar__item__icon">
+
+          <p class="navbar__item__title">Experience</p>
+        </a>
+
+        <a class="navbar__item" href="#history">
+          <img src="./assets/icons/history.svg" alt="Blogs icon" class="navbar__item__icon">
+
+          <p class="navbar__item__title">History</p>
+        </a>
+
+        <!-- <a class="navbar__item" href="#skills">
+            <img
+              src="./assets/icons/ideal.svg"
+              alt="Blogs icon"
+              class="navbar__item__icon"
+            >
+  
+            <p class="navbar__item__title">Skills</p>
+          </a> -->
+
+        <a class="navbar__item" href="#knowledge">
+          <img src="./assets/icons/knowledge.svg" alt="Contact icon" class="navbar__item__icon">
+
+          <p class="navbar__item__title">Knowledge</p>
+        </a>
+      </section>
+
+      <section class="card main">
+        <div class="bg--gray default-border-top">
+          <div class="wrapper">
+            <div class="wrapper__header">
+              <p class="wrapper__header__title">Resume</p>
+
+              <div class="line"></div>
+            </div>
+
+            <div class="list__title" id="description">
+              <img src="./assets/icons/contact-red.svg" alt="Experience icon" class="list__title__icon">
+
+              <p class="list__title__name">About</p>
+            </div>
+
+            <ul class="list__content__description">
+              <li>Tôi là một lập trình viên trẻ, yêu thích công nghệ và sáng tạo. Có khả năng phát triển website và ứng dụng web từ giao diện người dùng (Front-end) đến xử lý dữ liệu (Back-end). Mục tiêu của tôi là trở thành lập trình viên Full Stack giỏi, có thể tự xây dựng và triển khai hoàn chỉnh các sản phẩm công nghệ hữu ích.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <div class="wrapper__list">
+            <div class="list--left" id="education">
+              <div class="list__title">
+                <img src="./assets/icons/educationsvg.svg" alt="Education icon" class="list__title__icon">
+
+                <p class="list__title__name">Education</p>
+
+              </div>
+
+              <div class="list__content">
+                <div class="list__content__item bg--FFF4F4">
+                  <p class="list__content__time">09.2020 - 06.2024</p>
+
+                  <p class="list__content__address">Trường:</p>
+                  <p class="list__content__address"> Đại học Duy Tân</p>
+                  <br>
+                  <p class="list__content__address">Chuyên Ngành:</p>
+                  <p class="list__content__address"> Công nghệ Phần mềm</p>
+                  <br>
+                  <p class="list__content__address">Xếp loại tốt nghiệp:</p>
+                  <p class="list__content__address"> GIỏi (GPA: 3.42/4.0)</p>
+                  
+                </div>
+
+                <div class="list__content__item bg--EEF5FA">
+                  <p class="list__content__time">05.2025 - 07.2025</p>
+
+                  <p class="list__content__address">Học thiết kế website bằng WordPress, tối ưu SEO và chạy quảng cáo hiệu quả </p>
+
+                  <p class="list__content__location">Udemy</p>
+                </div>
+
+                <!-- <div class="list__content__item bg--FCF4FF">
+                 
+                </div> -->
+              </div>
+            </div>
+
+            <div class="list--right">
+              <div class="list__title" id="experience">
+                <img src="./assets/icons/experience.svg" alt="Experience icon" class="list__title__icon">
+
+                <p class="list__title__name">Experience</p>
+              </div>
+
+              <div class="list__content">
+                <div class="list__content__item bg--FCF9F2">
+                  <p class="list__content__time">02.2024 - 06.2024</p>
+                  <p class="list__content__location">Full Stack Software Engineer</p>
+                  <p class="list__content__address">Thực tập sinh tại Wiicamp.</p>
+                </div>
+
+                <div class="list__content__item bg--FFF4F4">
+                  <p class="list__content__time">10.2024 - 9.2025</p>
+
+                  <p class="list__content__location">UE5 Developer (Unreal Engine)</p>
+
+                  <p class="list__content__address">tại Công ty cổ phần DayDesign</p>
+                </div>
+
+                <!-- <div class="list__content__break-line"></div> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg--gray">
+          <div class="wrapper">
+            <div class="list__title" id="history">
+              <img src="./assets/icons/history-red.svg" alt="Experience icon" class="list__title__icon">
+
+              <p class="list__title__name">Work history</p>
+            </div>
+
+            <div class="list__content">
+
+              <div class="list__content__item bg--FFF1FB">
+                <div class="list__content__title">
+                  <p class="list__content__name">Fullstack Developer Intern – Wiicamp</p>
+                  <p class="list__content__name">FoodDelivery Website App:</p>
+
+                  <p class="list__content__time">02.2024 - 06.2024 (Wiicamp)</p>
+                </div>
+
+                <ul class="list__content__description">
+                  <li>
+                    Mô tả: Ứng dụng web đặt món ăn trực tuyến, cho phép người dùng duyệt menu, thêm món vào giỏ hàng, đặt món và thanh toán online. Quản trị viên có thể quản lý menu, đơn hàng và doanh thu.</li>
+                  <li>Vị trí Fullstack developer.
+                    <ol>
+                    <li>
+                    Frontend: ReactJS, xây dựng giao diện menu, giỏ hàng, đặt món và thanh toán online, responsive trên desktop và mobile.
+                  </li>
+                  <li>
+                   Backend: NodeJS + MongoDB, xây dựng API RESTful quản lý người dùng, quản lý đơn hàng.
+                  </li>
+                </ol>
+              </li>
+
+                  <li>Số lượng đội : 5.</li>
+
+                  <li>Technologies: React JS | Node JS | MongoDB.</li>
+                </ul>
+              </div>
+
+              <div class="list__content__item bg--F2F4FF">
+                <div class="list__content__title">
+                  <p class="list__content__name">Unreal Engine 5 Developer</p>
+
+                  <p class="list__content__time">10.2024 - 9.2025 (Công ty Cổ phần DayDesign)</p>
+                </div>
+
+                <ul class="list__content__description">
+                  <li>Phát triển môi trường 3D real-time bằng Unreal Engine 5; tạo và tích hợp asset 3D (Blender, 3Ds Max), animation, camera path cho trải nghiệm tương tác trực tiếp.</li>
+                  <li>Hợp tác với nhóm thiết kế và phát triển để đảm bảo tính thẩm mỹ và chức năng của sản phẩm cuối cùng.</li>
+                  <li>Lập trình C++ / Blueprint để xây dựng tính năng và logic trong dự án.</li>
+                  <li>Đảm bảo tiến độ dự án, bàn giao sản phẩm đúng hạn, đạt chuẩn chất lượng.</li>
+                  <li>Hỗ trợ và xử lý các sự cố CNTT, mạng, phần mềm đảm bảo hệ thống vận hành ổn định.</li>
+                  <li>Quản lý và chỉnh sửa website công ty trên WordPress, cập nhật nội dung và tối ưu giao diện.</li>
+                </ul>
+              </div>
+
+              <!-- <div class="list__content__item bg--FCF9F2">
+               
+              </div> -->
+
+            
+            </div>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <div class="wrapper__list">
+            <!-- <div class="wrapper__list__skill" id="skills">
+                <p class="list__title">Working Skills</p>
+  
+                <div class="list__progress">
+                  <div class="list__progress__item">
+                    <div class="item__title">
+                      <p class="item__title__label">ReactJS</p>
+
+                      <p class="item__title__label">80%</p>
+                    </div>
+  
+                    <progress class="item__progress" value="80" max="100"></progress>
+                  </div>
+
+                  <div class="list__progress__item">
+                    <div class="item__title">
+                      <p class="item__title__label">NextJS</p>
+
+                      <p class="item__title__label">90%</p>
+                    </div>
+  
+                    <progress class="item__progress" value="90" max="100"></progress>
+                  </div>
+
+                  <div class="list__progress__item">
+                    <div class="item__title">
+                      <p class="item__title__label">Back-end Developer</p>
+
+                      <p class="item__title__label">70%</p>
+                    </div>
+  
+                    <progress class="item__progress" value="70" max="100"></progress>
+                  </div>
+
+                  <div class="list__progress__item">
+                    <div class="item__title">
+                      <p class="item__title__label">Illustrator</p>
+
+                      <p class="item__title__label">85%</p>
+                    </div>
+  
+                    <progress class="item__progress" value="85" max="100"></progress>
+                  </div>
+
+                  <div class="list__progress__item">
+                    <div class="item__title">
+                      <p class="item__title__label">Photoshop</p>
+
+                      <p class="item__title__label">62%</p>
+                    </div>
+  
+                    <progress class="item__progress" value="62" max="100"></progress>
+                  </div>
+
+                  <div class="list__progress__item">
+                    <div class="item__title">
+                      <p class="item__title__label">Figma</p>
+
+                      <p class="item__title__label">65%</p>
+                    </div>
+  
+                    <progress class="item__progress" value="65" max="100"></progress>
+                  </div>
+                </div>
+              </div> -->
+
+            <div class="wrapper__list__Knowledge" id="knowledge">
+              <p class="list__title">Knowledge</p>
+
+              <div class="list__tag">
+                <p class="tag">HTML</p>
+
+                <p class="tag">CSS</p>
+
+                <p class="tag">JavaScript</p>
+
+                <p class="tag">ReactJS</p>
+
+                <p class="tag">NextJS</p>
+
+                <p class="tag">NodeJS</p>
+
+                <p class="tag">Express</p>
+
+                <p class="tag">MongoDB</p>
+
+                <p class="tag">Mongoose</p>
+
+                <p class="tag">PHP</p>
+
+                <p class="tag">Laravel 8</p>
+
+                <p class="tag">MySQL</p>
+
+                <p class="tag">GitHub</p>
+
+                <p class="tag">WordPress</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+</body>
+
+</html>
